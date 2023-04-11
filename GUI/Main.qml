@@ -1,4 +1,6 @@
 import QtQuick
+import "translations"
+
 Item {
     visible: true
     property int larguraTela: 640

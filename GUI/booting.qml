@@ -1,4 +1,5 @@
 import QtQuick
+import "translations"
 
 Item {
     width: 640
