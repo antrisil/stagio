@@ -5,6 +5,7 @@ project(GUI VERSION 0.1 LANGUAGES CXX)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_BUILD_TYPE Debug)
+set(TS_FILES pt_PT.ts)
 
 find_package(Qt6 REQUIRED COMPONENTS Concurrent)
 find_package(Qt6 REQUIRED COMPONENTS Charts Core Gui Qml Quick Sql)
@@ -12,10 +13,8 @@ find_package(Qt6 6.2 COMPONENTS Quick SerialBus REQUIRED)
 find_package(Qt6 REQUIRED COMPONENTS Sql)
 find_library(SOCKETCAN_LIB socketcan)
 find_package(Qt6LinguistTools REQUIRED)
-
-qt_standard_project_setup()
-
-qt_add_executable(appGUI
+qt_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
+add_executable(appGUI
     main.cpp
     dbmanager.h
     dbmanager.cpp
@@ -26,6 +25,7 @@ qt_add_executable(appGUI
     timer.h
     useractivitydetector.h
     useractivitydetector.cpp
+    ${QM_FILES} # Agregamos los archivos de traducción generados por qt_create_translation
 )
 
 qt_add_qml_module(appGUI
@@ -61,7 +61,7 @@ target_link_libraries(appGUI PUBLIC
     Qt::Sql
     Qt::Concurrent
     Qt6::SerialBus
-    socketcan
+    ${SOCKETCAN_LIB}
 )
 
 install(TARGETS appGUI

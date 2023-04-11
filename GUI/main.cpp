@@ -71,6 +71,12 @@ int main(int argc, char * argv[]) {
     QQuickView viewer;
     UserActivityDetector activityDetector;
 
+    QTranslator translator;
+    qDebug() << "*******************************************";
+    translator.load("pt_PT.qm"); // cargar el archivo de traducción en español
+    app.installTranslator(&translator);
+    qDebug() << "*******************************************";
+
     app.installEventFilter( & activityDetector);
 
     QObject::connect( & activityDetector, & UserActivityDetector::userActivityDetected, &
