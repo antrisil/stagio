@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="pt_PT">
+<context>
+    <name>MONITOR</name>
+    <message>
+        <source>MENU</source>
+        <translation>MENÚ</translation>
+    </message>
+    <message>
+        <source>START</source>
+        <translation type="vanished">PARAR</translation>
+    </message>
+    <message>
+        <source>LOAD</source>
+        <translation>CARGA</translation>
+    </message>
+    <message>
+        <source>STOP</source>
+        <translation>PARAR</translation>
+    </message>
+</context>
+<context>
+    <name>booting</name>
+    <message>
+        <source>BOOTING</source>
+        <translation>CARREGANDO</translation>
+    </message>
+</context>
+<context>
+    <name>bypass</name>
+    <message>
+        <source>Exit</source>
+        <translation>Sair</translation>
+    </message>
+</context>
+<context>
+    <name>grafic</name>
+    <message>
+        <source>Load</source>
+        <translation>Carga</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>Sair</translation>
+    </message>
+</context>
+<context>
+    <name>languages</name>
+    <message>
+        <source>LANGUAGE</source>
+        <translation>IDIOMAS</translation>
+    </message>
+    <message>
+        <source>English</source>
+        <translation>Inglês</translation>
+    </message>
+    <message>
+        <source>Portuguese</source>
+        <translation>Português</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>Sair</translation>
+    </message>
+</context>
+<context>
+    <name>metric</name>
+    <message>
+        <source>METRICS</source>
+        <translation>MÉTRICAS</translation>
+    </message>
+    <message>
+        <source>Temperature : </source>
+        <translation>Temperatura : </translation>
+    </message>
+    <message>
+        <source>Humidity : </source>
+        <translation>Humidade : </translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>Sair</translation>
+    </message>
+</context>
+<context>
+    <name>output</name>
+    <message>
+        <source>OUTPUT</source>
+        <translation>OUTPUT</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>Sair</translation>
+    </message>
+</context>
+<context>
+    <name>settings</name>
+    <message>
+        <source>MENU</source>
+        <translation>MENÚ</translation>
+    </message>
+    <message>
+        <source>Home</source>
+        <translation>Inicio</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Idiomas</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Output</translation>
+    </message>
+    <message>
+        <source>Metrics</source>
+        <translation>Métricas</translation>
+    </message>
+    <message>
+        <source>Bypass</source>
+        <translation>Bypass</translation>
+    </message>
+    <message>
+        <source>StandBy</source>
+        <translation>Standby</translation>
+    </message>
+    <message>
+        <source>Maintenance</source>
+        <translation>Manutenção</translation>
+    </message>
+    <message>
+        <source>Set default settings</source>
+        <translation>Configurações de fábrica</translation>
+    </message>
+</context>
+<context>
+    <name>standby</name>
+    <message>
+        <source>Exit</source>
+        <translation>Sair</translation>
+    </message>
+    <message>
+        <source>Timer : </source>
+        <translation>Temporizador : </translation>
+    </message>
+</context>
+<context>
+    <name>temperature</name>
+    <message>
+        <source>TEMPERATURE</source>
+        <translation>TEMPERATURA</translation>
+    </message>
+    <message>
+        <source>Temperature :</source>
+        <translation>Temperatura :</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>Sair</translation>
+    </message>
+</context>
+</TS>
